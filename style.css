@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+html,body{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    height: 100%;
+    font-family: Poppins;
+    z-index: -1;
+}
+
+.container{
+    display: flex;
+    height: 78.5%;
+    
+}
+
+.child1{
+    border-right: 3px solid;
+    background-color: #212121;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-color:#FD83D5;
+    padding: 5%;
+    width: 10%;
+    height: 100%;
+    z-index: 2;
+
+}
+
+.child2{
+    padding: 5%;
+    width: 90%;
+    height: 100%;
+    padding-left: 10%;
+
+}
+
+table{
+    width: 85%;
+    margin-top: 40%;
+    font-family: Poppins;
+}
+
+td{
+    padding: 5%;
+    vertical-align: middle;
+    font-size: large;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.logout{
+    position: absolute;
+    bottom: 30px;
+}
+
+.discord{
+    background-color: #FD83D5;
+    font-size: x-large;
+    padding: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-left: 78%;
+    border-radius: 80px;
+    vertical-align: middle;
+}
+
+
+#discord{
+    color: black;
+    
+}
+
+.childContainer{
+    display: flex;
+    font-size:medium;
+   
+}
+
+.rightChild{
+    background-color:#222222;
+    border: 2px solid white;
+    border-radius: 22.7px;
+    border-color: #FD83D5;
+    width: 28%;
+    margin: 3%;
+    margin-bottom: 1%;
+    height: 21.5%;
+    text-align: center;
+    padding: 3%;
+    font-size: larger;
+    z-index: 2;
+}
+
+.rightChildBottom{
+    background-color:#222222;
+    border: 2px solid white;
+    border-radius: 22.7px;
+    border-color: #FD83D5;
+    width: 18%;
+    height: 15px;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+#renew{
+    background-color: #FD83D5;
+    width: 12%;
+    height: 10px;
+    border-radius: 50px;
+    margin-top: 12px;
+    padding: 25px;
+    padding-top: 10px;
+}
+
+#renewText{
+    text-decoration: none;
+    color: black;    
+}
+
+    
+.data{
+    font-weight:bolder;
+    font-size: x-large;
+}
+
+.nav:hover{
+    color: #FD83D5; 
+
+}
+
+.gif{
+    position: absolute;
+    width: 100%;
+    left: 100px;
+    top: 1px;
+    z-index: 0;
+    
+}
